@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rova_bridge</name>
+  <version>1.0.0</version>
+  <description>Bridge to Rova RT controller</description>
+
+  <maintainer email="schat127@umn.edu">Julia Schatz</maintainer>
+
+  <license>MIT</license>
+
+  <author email="schat127@umn.edu">Julia Schatz</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>serial</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

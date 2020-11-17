@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<launch>
+  <node pkg="rova_bridge" type="rova_bridge_node" name="rova_bridge" output="screen" respawn="true">
+    <param name="pose_frame_id" value="odom"/>
+    <param name="twist_frame_id" value="base_link"/>
+    <param name="covar_samples" value="10"/>
+    <param name="port" value="/dev/ttyUSB0"/>
+    <param name="baud" value="115200"/>
+  </node>
+</launch>
